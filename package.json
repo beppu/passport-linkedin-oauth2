@@ -8,11 +8,11 @@
     "test": "mocha --require should -t 5000"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "~1.2.1",
-    "passport": "~0.1.17",
+    "ejs": "~0.8.4",
     "express": "~3.4.4",
-    "ejs": "~0.8.4"
+    "mocha": "*",
+    "passport": "~0.1.17",
+    "should": "~1.2.1"
   },
   "keywords": [
     "passport",
@@ -41,6 +41,7 @@
   "license": "MIT",
   "dependencies": {
     "passport-oauth2": "1.x.x",
+    "request": "^2.88.0",
     "underscore": "^1.7.0"
   }
 }
